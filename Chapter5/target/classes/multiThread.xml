@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-->
+多线程运行失败，空指针，这里需要重新看下视频，在课程5-16
+parallel配置的是用例运行级别：
+methods-方法级别
+tests-用例级别
+classes-类级别
+<-->
+
+<suite name ="Thread" parallel="tests" thread-count="1">
+
+    <Test name ="demo1">
+        <classes>
+
+            <class name="com.course.testng.multiThread.MultiThreadOnXml"/>
+        </classes>
+
+    </Test>
+
+</suite>
