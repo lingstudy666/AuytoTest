@@ -1,0 +1,7 @@
+启动mock jar包的命令：
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+
+参数说明：
+http：server类型，http协议；
+-p：端口号
+-c：要mock的json文件
