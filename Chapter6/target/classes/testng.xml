@@ -16,7 +16,8 @@
     </test>
 
     <listeners>
-        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+        <!--><listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/><-->
+        <lister class-name="com.tester.extend.demo.ExtentTestNgIReporterListener"/>
     </listeners>
 
 </suite>
