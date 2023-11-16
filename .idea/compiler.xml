@@ -24,12 +24,14 @@
         <processorPath useClasspath="true" />
         <module name="Chapter5" />
         <module name="Chapter6" />
+        <module name="Chapter9" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AuytoTest" target="1.8" />
       <module name="Chapter5" target="1.8" />
       <module name="Chapter6" target="1.5" />
+      <module name="Chapter9" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
